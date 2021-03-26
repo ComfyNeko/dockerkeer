@@ -836,23 +836,23 @@ orange circle
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="quizzie.php">Quizzie</a>
+      <a class="navbar-brand" href="Admin/quizzie.php">Quizzie</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="home.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li class="active"><a href="Admin/home.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
 	  <li class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-sunglasses"></span> Quiz Maker<span class="caret"></span></a>
 	  <ul class="dropdown-menu">
-          <li><a href="cq.php">Create Quiz</a></li>
-          <li><a href="deletequiz.php">Delete Quiz</a></li>
-		  <li><a href="display.php">Display Quiz</a></li>
+          <li><a href="Admin/cq.php">Create Quiz</a></li>
+          <li><a href="Admin/deletequiz.php">Delete Quiz</a></li>
+		  <li><a href="Admin/display.php">Display Quiz</a></li>
 	  </ul>
       </li>	
-      <li><a href="user.php"><span class="glyphicon glyphicon glyphicon-flash"></span> Users</a></li>	  
-	  <li><a href="leaderboard.php"><span class="glyphicon glyphicon-stats"></span> Leaderboard</a></li>
+      <li><a href="Admin/user.php"><span class="glyphicon glyphicon glyphicon-flash"></span> Users</a></li>	  
+	  <li><a href="Admin/leaderboard.php"><span class="glyphicon glyphicon-stats"></span> Leaderboard</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-    <form class="navbar-form navbar-left" action="search.php" method="post">
+    <form class="navbar-form navbar-left" action="Admin/search.php" method="post">
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Search" name="search">
         <div class="input-group-btn">
@@ -862,7 +862,7 @@ orange circle
         </div>
       </div>
     </form>
-      <li><a href="adminlogin.php" onclick="return confirm('Are you sure to logout?');"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+      <li><a href="Admin/adminlogin.php" onclick="return confirm('Are you sure to logout?');"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
     </ul>
   </div>
 </nav>
